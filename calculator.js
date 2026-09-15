@@ -40,12 +40,12 @@ if (operator === "+") {
   result = num1 * num2;
 } else if (operator === "/") {
   if (num2 === 0) {
-    console.log("No se puede divir entre 0");
+    console.log("No se puede dividir por cero");
   } else {
     result = num1 / num2;
   }
 } else {
-  console.log("Operador invalido");
+  console.log("Operador inválido");
 }
 
 // Paso 3: Imprimir el resultado
